@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  background: white;
+  color: #05364D;
+}
+
+.svg {
+  filter: invert(.7);
+}
+
+h1 {
+  font-size: 33px;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+h2 b {
+  color: #62B56F;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  padding: 15%;
+}
+
+/* ======================== */
+/* NAVBAR */
+/* ======================== */
+
+#logo {
+  position: absolute;
+  padding: 20px;
+  height: 30px;
+}
+
+#nama-logo {
+  position: absolute;
+  text-decoration: none;
+  color: #05364D;
+  font-size: 23px;
+  padding: 22px;
+  margin-left: 33px;
+}
+
+#nama-logo:hover {
+  color: #62B56F;
+}
+
+.menu-navbar {
+  list-style: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar {
+  padding-left: 13.3%;
+  padding-right: 13.3%;
+  height: 66px;
+  background-color: white;
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, .1);
+
+}
+
+ul.menu-navbar li {
+  float: right;
+}
+
+ul.menu-navbar li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px;
+  border-color: #62B56F;
+}
+
+ul.menu-navbar li a:hover {
+  color: #62B56F;
+  font-weight: bold;
+}
+
+#linkcontact {
+  padding: 0px;
+  padding: 14px;
+  border-radius: 40px;
+  margin-top: 12px;
+  color: white;
+  background-color: #71e971;
+  background-image: linear-gradient(225deg, #71e971 0%, #589b6e 100%);
+  position: relative;
+}
+
+#linkcontact a {
+  padding: 20px;
+}
+
+#fotoku img {
+  height: 280px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.intro {
+  margin-top: -123px;
+}
+
+/* ======================== */
+/* SOSMED */
+/* ======================== */
+
+.icon-sosmed {
+  display: block;
+  height: 17px;
+  padding: 20px;
+}
+
+.tombol {
+  display: inline-block;
+  background: white;
+  color: #62B56F;
+  margin: 13px;
+  border-radius: 100%;
+  box-shadow: 0 5px 16px -5px rgba(0, 0, 0, .3);
+  overflow: hidden;
+  position: relative;
+}
+
+.tombol .icon-sosmed {
+  padding: 20px;
+  transition: 0.2s linear;
+}
+
+.tombol:hover .icon-sosmed {
+  transform: scale(1.4);
+  color: white;
+  background-color: #71e971;
+  background-image: linear-gradient(225deg, #71e971 0%, #589b6e 100%);
+
+}
+
+/* ======================== */
+/* ABOUT ME */
+/* ======================== */
+
+.bg-aboutme {
+  margin-top: -123px;
+  background-color: #71e971;
+  background-image: linear-gradient(225deg, #71e971 0%, #589b6e 100%);
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, .1);
+}
+
+.aboutme {
+  margin-top: -69px;
+  margin-bottom: -75px;
+  line-height: 24px;
+}
+
+/* ======================== */
+/* SERVICES */
+/* ======================== */
+
+.services {
+  color: #05364D;
+  margin-top: -100px;
+}
+
+.services-container {
+  display: inline-block;
+}
+
+.service-box {
+  height: 330px;
+  width: 245px;
+  text-align: center;
+  display: inline-block;
+  background: white;
+  margin: 13px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 16px -5px rgba(0, 0, 0, .3);
+  overflow: hidden;
+  position: relative;
+  transition: 0.2s linear;
+}
+
+.service-box:hover {
+  background-color: #71e971;
+  background-image: linear-gradient(225deg, #71e971 0%, #589b6e 100%);
+  box-shadow: 0 5px 26px -5px rgba(0, 0, 0, .5);
+  transition: 0.2s linear;
+}
+
+.service-icon {
+  height: 40px;
+  border-radius: 100%;
+  padding: 22px;
+  margin-bottom: 10px;
+}
+
+.service-icon img {
+  display: block;
+  height: 42px;
+}
+
+/* ======================== */
+/* PORTOFOLIO */
+/* ======================== */
+
+
+.gallery-box {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.gallery img {
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+  width: 303px;
+  height: auto;
+}
+
+.gallery img:hover {
+  background-size: cover;
+  background-color: #71e971;
+  background-image: linear-gradient(225deg, #71e971 0%, #589b6e 100%);
+}
+
+
+/* ======================== */
+/* CONTACT ME */
+/* ======================== */
+.contactme-desc {
+  position: relative;
+  float: right;
+  margin-top: -180px;
+  padding-right: 280px;
+}
+
+
+/* ======================== */
+/* FOOTER */
+/* ======================== */
+
+.line-footer {
+  height: 5px;
+  background-color: #71e971;
+  background-image: linear-gradient(225deg, #71e971 0%, #589b6e 100%);
+}
+
+.signature {
+  color: white;
+  height: 80px;
+  background: #040f1d;
+}
+
+.signature h2 {
+  padding-top: 33px;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
